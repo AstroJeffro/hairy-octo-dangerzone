@@ -1,0 +1,17 @@
+﻿Build started 6/5/2015 10:26:19 PM.
+     1>Project "C:\TutorialProject\TutorialCode\Intermediate\ProjectFiles\TutorialCode.vcxproj" on node 2 (Build target(s)).
+     1>Build:
+         "C:\Program Files\Epic Games\4.7\Engine\Build\BatchFiles\Build.bat" TutorialCodeEditor Win64 DebugGame "C:\TutorialProject\TutorialCode\TutorialCode.uproject" -rocket
+         Compiling game modules for hot reload
+         Performing 2 actions (4 in parallel)
+         Pickup.cpp
+         [2/2] Link UE4Editor-TutorialCode-97-Win64-DebugGame.dll
+            Creating library C:\TutorialProject\TutorialCode\Intermediate\Build\Win64\TutorialCodeEditor\DebugGame\UE4Editor-TutorialCode-97-Win64-DebugGame.lib and object C:\TutorialProject\TutorialCode\Intermediate\Build\Win64\TutorialCodeEditor\DebugGame\UE4Editor-TutorialCode-97-Win64-DebugGame.exp
+         -------- End Detailed Actions Stats -----------------------------------------------------------
+         Cumulative action seconds (8 processors): 0.00 building projects, 0.18 compiling, 0.00 creating app bundles, 0.00 generating debug info, 1.24 linking, 0.00 other
+         UBT execution time: 6.03 seconds
+     1>Done Building Project "C:\TutorialProject\TutorialCode\Intermediate\ProjectFiles\TutorialCode.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.24

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TutorialCode.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{2B9B9BBA-0E36-4250-9028-8BADBCF5F1E7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TutorialCode.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TutorialCodeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{15A0E1FE-EF5D-4673-B68A-A06EB7003388}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TutorialCode">
+      <UniqueIdentifier>{D69F3EB1-7262-46C9-A71D-5E3709A2093F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TutorialCode\TutorialCode.Build.cs">
+      <Filter>Source\TutorialCode</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TutorialCode\TutorialCode.cpp">
+      <Filter>Source\TutorialCode</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TutorialCode\TutorialCode.h">
+      <Filter>Source\TutorialCode</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TutorialCode\TutorialCodeCharacter.cpp">
+      <Filter>Source\TutorialCode</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TutorialCode\TutorialCodeCharacter.h">
+      <Filter>Source\TutorialCode</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TutorialCode\TutorialCodeGameMode.cpp">
+      <Filter>Source\TutorialCode</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TutorialCode\TutorialCodeGameMode.h">
+      <Filter>Source\TutorialCode</Filter>
+    </ClInclude>
+    <Filter Include="Source\TutorialCode\Resources">
+      <UniqueIdentifier>{8AC60462-2500-4779-AEEF-EB0299DF3E0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TutorialCode\Resources\Windows">
+      <UniqueIdentifier>{5A1E5411-412B-410E-85E9-5C17EA33A8A9}</UniqueIdentifier>
+    </Filter>
+    <ResourceCompile Include="..\..\Source\TutorialCode\Resources\Windows\TutorialCode.rc">
+      <Filter>Source\TutorialCode\Resources\Windows</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\TutorialCode\Pickup.h">
+      <Filter>Source\TutorialCode</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\TutorialCode\Pickup.cpp">
+      <Filter>Source\TutorialCode</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
